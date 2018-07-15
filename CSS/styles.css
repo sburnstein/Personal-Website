@@ -32,7 +32,7 @@ h3 {
 }
 header {
 	background: red;
-	color: #fff;
+	color: #151E7F;
 }
 header h1, header h2 {
 	margin: 0 0 0 10px;
@@ -43,7 +43,7 @@ nav {
 	text-align: center;
 	padding: 10px 0;
 	margin: 10px 0 0 0;
-	border-bottom: 1px solid red
+	border-bottom: 1px solid #CDBFA4
 }
 nav ul {
 	list-style: none;
@@ -52,7 +52,7 @@ nav ul {
 }
 nav ul li {
 	display: inline-block;
-	width: 22%;
+	width: 24%;
 	padding: 0%;
 }
 nav a {
@@ -63,7 +63,80 @@ nav a {
 	margin:0;
 }
 nav a:hover {
-	background: red;
-	color: #fff;
+	background: #CDBFA4;
+	color: #151E7F;
 	border-radius: 10;
 }
+main {
+    color: #484444;
+    margin: 0 15px;
+}
+
+footer {
+    background: #151E7F;
+    color: #484444;
+    padding: 5% 0 0 0;
+    text-align: center;
+    clear: both;
+}
+
+footer p {
+    margin-top: 40px;
+}
+
+#about-me img {
+    display: block;
+    border-radius: 20%;
+    margin: auto;
+}
+
+#contact-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#contact-list li {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+#contact-list a {
+    color: #484444;
+    padding: 10px 0;
+}
+
+.contact-icon {
+    margin: 0 5px 0 0;
+    padding: 10px;
+    background: #CDBFA4;
+    color: #151E7F;
+    border-radius: 100%;
+    font-size: 0.75em;
+}
+
+#contact-list a:hover i.contact-icon, li.social-icon a:hover {
+    transition-duration: 500ms;
+    background: #151E7F;
+    color: #CDBFA4;
+}
+
+.social-icon-list {
+    list-style: none;
+    display: block;
+    margin: 20px 0;
+    padding: 0;
+}
+
+li.social-icon {
+    display: inline-block;
+    margin: 0 6px;
+}
+
+li.social-icon a {
+    transition-duration: 500ms;
+    color: #151E7F;
+    padding: 10px;
+    background: red;
+    border-radius: 25%;
+} 
